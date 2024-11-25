@@ -1,4 +1,4 @@
-[![Artifact Hub](https://img.shields.io/endpoint?url=https://artifacthub.io/badge/repository/schichtel)](https://artifacthub.io/packages/search?repo=schichtel)
+[![Artifact Hub](https://img.shields.io/endpoint?url=https://artifacthub.io/badge/repository/loickal)](https://artifacthub.io/packages/search?repo=loickal)
 
 Helm Charts
 ===========
