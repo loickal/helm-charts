@@ -13,9 +13,6 @@ spec:
   template:
     metadata:
       annotations:
-        checksum/configmap: {{ include (print $.Template.BasePath "/configmap.yaml") $ | sha256sum }}
-        checksum/static-users: {{ include (print $.Template.BasePath "/static-users.yaml") $ | sha256sum }}
-        checksum/static-secret: {{ include (print $.Template.BasePath "/static-secret.yaml") $ | sha256sum }}
         {{- with .Values.podAnnotations }}
         {{- toYaml . | nindent 8 }}
         {{- end }}
